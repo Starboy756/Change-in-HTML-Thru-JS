@@ -1,0 +1,37 @@
+// --------Example 1 <h1> --------
+
+// step 1 Create the element
+
+   // const newH1 = document.createElement("h1")
+
+
+    const newListElement = document.createElement("li")
+
+// step 2 add attributes/properties
+
+    newListElement.textContent = "coconut";
+
+    // newH1.textContent = "I like Pizza!"
+    // newH1.id = "myH1"
+    // newH1.style.color = "tomato";
+    // newH1.style.textAlign = "center"
+
+// step 3 Append element to DOM
+
+    document.body.append(newListElement)
+
+    //document.body.append(newH1); //append will make a lastChildElement
+    //document.body.prepend(newH1); //prepend will make a firstChildElement
+
+    //document.getElementById("box1").append(newH1);
+    //document.getElementById("box3").prepend(newH1);
+
+    // const box3 = document.getElementById("box3");
+    // document.body.insertBefore(newH1, box3)
+
+    // const boxes = document.querySelectorAll(".box");
+    // document.body.insertBefore(newH1,boxes[3]);
+
+// Remove HTML Element
+
+//document.getElementById("box1").removeChild(newH1)
